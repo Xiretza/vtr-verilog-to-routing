@@ -66,4 +66,4 @@ if (USES_IPO)
     endforeach()
 endif()
 
-install(TARGETS libsdcparse sdcparse_test)
+install(TARGETS libsdcparse)
