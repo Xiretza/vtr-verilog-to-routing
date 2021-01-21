@@ -34,7 +34,7 @@ if (GENFASM_USES_IPO)
 endif()
 
 #Specify link-time dependancies
-install(TARGETS genfasm DESTINATION bin)
+install(TARGETS genfasm)
 
 #
 # Unit Tests

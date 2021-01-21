@@ -104,7 +104,7 @@ add_dependencies(libvtrutil version)
 target_link_libraries(libvtrutil
                         liblog)
 
-install(TARGETS libvtrutil DESTINATION bin)
+install(TARGETS libvtrutil)
 
 #
 # Unit Tests

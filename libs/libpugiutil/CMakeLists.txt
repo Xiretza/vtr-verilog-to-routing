@@ -19,4 +19,4 @@ set_target_properties(libpugiutil PROPERTIES PREFIX "") #Avoid extra 'lib' prefi
 target_link_libraries(libpugiutil
                         libpugixml)
 
-install(TARGETS libpugiutil DESTINATION bin)
+install(TARGETS libpugiutil)

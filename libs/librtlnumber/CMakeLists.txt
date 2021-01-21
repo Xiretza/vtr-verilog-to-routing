@@ -30,4 +30,4 @@ add_executable(rtl_number ${EXEC_SOURCES})
 target_link_libraries(rtl_number
                         librtlnumber)
 
-install(TARGETS rtl_number librtlnumber DESTINATION bin)
+install(TARGETS rtl_number librtlnumber)

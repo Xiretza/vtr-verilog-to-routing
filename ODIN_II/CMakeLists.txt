@@ -209,4 +209,4 @@ if(VTR_ENABLE_STRICT_COMPILE)
     endforeach()
 endif()
 
-install(TARGETS odin_II libodin_ii DESTINATION bin)
+install(TARGETS odin_II libodin_ii)

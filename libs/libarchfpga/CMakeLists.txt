@@ -33,4 +33,4 @@ if (READ_ARCH_USES_IPO)
     set_target_properties(read_arch PROPERTIES LINK_FLAGS ${IPO_LINK_WARN_SUPRESS_FLAGS})
 endif()
 
-install(TARGETS libarchfpga read_arch DESTINATION bin)
+install(TARGETS libarchfpga read_arch)

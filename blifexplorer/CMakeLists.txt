@@ -63,6 +63,6 @@ else()
     endif()
 
 
-    install(TARGETS blifexplorer DESTINATION bin)
+    install(TARGETS blifexplorer)
 
 endif()

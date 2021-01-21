@@ -32,4 +32,4 @@ foreach(flag ${ACE_SUPPRESS_FLAGS})
     endif()
 endforeach()
 
-install(TARGETS ace DESTINATION bin)
+install(TARGETS ace)

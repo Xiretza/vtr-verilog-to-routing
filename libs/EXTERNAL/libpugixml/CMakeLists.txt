@@ -25,4 +25,4 @@ if(NOT VTR_ENABLE_SANITIZE)
     target_compile_definitions(libpugixml PRIVATE PUGIXML_COMPACT)
 endif()
 
-install(TARGETS libpugixml DESTINATION bin)
+install(TARGETS libpugixml)

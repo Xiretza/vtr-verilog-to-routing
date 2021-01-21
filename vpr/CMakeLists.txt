@@ -248,7 +248,7 @@ if (VPR_USE_SIGNAL_HANDLER)
     endif()
 endif()
 
-install(TARGETS vpr libvpr DESTINATION bin)
+install(TARGETS vpr libvpr)
 
 
 #
