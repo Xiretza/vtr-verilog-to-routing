@@ -90,7 +90,9 @@ class AtomicBuffer {
     void print() {
         for (int i = 0; i < BUFFER_SIZE; i++) {
             uint8_t value = get_bits(i);
-            printf("%s", (value == 0) ? "0" : (value == 1) ? "1" : "x");
+            printf("%s", (value == 0)   ? "0"
+                         : (value == 1) ? "1"
+                                        : "x");
         }
         printf("\n");
     }
